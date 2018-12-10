@@ -26,7 +26,9 @@ body{
     position:absolute; 
     top:10px;
     /*color:white;  */
-    color: white;
+  /*  color: white;*/
+    text-shadow: 0px 1px 1px rgb(73, 9, 9),
+    1px -1px 0px black;
     margin-top:250px;
     margin-left:500px;
  }
@@ -43,6 +45,8 @@ body{
 
 .about{
     color:white;
+    text-shadow: 0px 1px 1px rgb(73, 9, 9),
+    2px -1px 0px black;
 }
 
 .about a{
