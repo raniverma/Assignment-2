@@ -12,9 +12,10 @@ figure{
     display:flex;
 }
 body{
-    background-image: url("../image/pro1_back.jpg");
+    background-image: url("../image/pro_back.jpg");
     background-repeat: no-repeat;
     background-size:100% 100%;
+    overflow:scroll;
 }
 
 .container{
@@ -24,9 +25,10 @@ body{
     font-size: 20px;
     position:absolute; 
     top:10px;
-    color:black;  
+    /*color:white;  */
+    color: white;
     margin-top:250px;
-    margin-left:50px;
+    margin-left:500px;
  }
 
 .about p{
