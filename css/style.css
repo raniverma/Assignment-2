@@ -55,11 +55,13 @@ figure{
     position:fixed;
     margin-top: 600px;
     margin-left:550px;
+    width:1000px;
+    height:1000px;
 }
-/*.footer h3{
+.footer p{
     position:absolute;
-    margin-bottom:100px;
+    margin-top:900px;
     color:white;
     text-shadow: 0px 1px 1px rgb(73, 9, 9),
     1px -1px 0px black;
-}*/
+}
