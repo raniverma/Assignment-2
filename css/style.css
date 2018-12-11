@@ -1,3 +1,4 @@
+/*css for nevigation bar*/
 .navigation{
     position: fixed;
     font-family:arial,sans-serif;
@@ -9,6 +10,12 @@
     margin-top: 0px;
     background-image: black;
 }
+/*For responsiveness*/
+@media screen and (max-width:1000px){
+    .navigation{
+        width:50%;
+    }
+}
 
 html, body {
     width: 100%;
@@ -18,7 +25,7 @@ html, body {
 }
 .spanmenu{
     position: absolute;
-    top: 50px;;
+    top: 50px;
     right:70px;
     height:100%;
     width:100%;
@@ -31,6 +38,7 @@ html, body {
 .menu li{
     display: inline-block;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 .spanmenu a{
     margin:20px;
@@ -58,6 +66,13 @@ figure{
     margin-left:550px;
     width:1000px;
     height:1000px;
+}
+/*For responsiveness*/
+@media screen and(max-width:1000px){
+    .footer{
+        width:50%;
+        position:fixed;
+    }
 }
 .footer p{
     position:absolute;
