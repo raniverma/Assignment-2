@@ -50,7 +50,7 @@ html, body {
     margin:20px;
     color:red;
 }
-
+/*css for image*/
 figure{
     width:100%;
     margin:0;
@@ -71,7 +71,6 @@ figure{
 @media screen and(max-width:1000px){
     .footer{
         width:50%;
-        position:fixed;
     }
 }
 .footer p{
